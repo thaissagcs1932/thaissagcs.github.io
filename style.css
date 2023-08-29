@@ -1,33 +1,32 @@
-style.css
-header{
-    backgroud-color: black;
-color:white;
-height: :50%;
-width : 100%;
-position: fixed ;
-z-index: 1;
+/* style.css */
+header {
+    background-color: black;
+    color: white;
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
-body{
+body {
     font-size: 15px;
-line-height: 1.5%;
-font-family: :"lato", sans-serif
-
-
-
+    line-height: 1.5%;
+    font-family: "lato", sans-serif
 }
-#idlogo{
+
+#idlogo {
     padding-top: 25px;
-padding-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 nav a {
 
     color: inherit;
-text-decoration: nome;
-font-size: inherit;
+    text-decoration: nome;
+    font-size: inherit;
 }
-nav a : houver{
-    color: rgba(255,255,255,0,)
-   
-} 
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.5)
+}
