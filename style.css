@@ -36,4 +36,12 @@ nav a {
 
 nav a:hover {
     color: rgba(255, 255, 255, 0.5)
+o   text-deoration:none;
+    font-size:inherit ;
+
+}
+
+.card{
+    box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.5);
+    0 2px 5px 0 rgba(255, 255, 255, 0.5);
 }
