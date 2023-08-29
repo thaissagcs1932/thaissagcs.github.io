@@ -1,0 +1,33 @@
+style.css
+header{
+    backgroud-color: black;
+color:white;
+height: :50%;
+width : 100%;
+position: fixed ;
+z-index: 1;
+}
+
+body{
+    font-size: 15px;
+line-height: 1.5%;
+font-family: :"lato", sans-serif
+
+
+
+}
+#idlogo{
+    padding-top: 25px;
+padding-bottom: 25px;
+}
+
+nav a {
+
+    color: inherit;
+text-decoration: nome;
+font-size: inherit;
+}
+nav a : houver{
+    color: rgba(255,255,255,0,)
+   
+} 
