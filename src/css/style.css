@@ -180,3 +180,18 @@ section.cardBox-tgcs {
     justify-content: center;
     align-items: center;
 }
+
+#image2{
+    background-image: url(../images/Piratas-Vale-Silício.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+#image1{
+    background-image: url(../images/2952938-lady-gaga-revela-que-bradley-cooper-diri-580x0-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
