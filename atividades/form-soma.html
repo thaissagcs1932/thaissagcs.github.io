@@ -1,0 +1,50 @@
+<DOCTYPE html>
+    <html>
+    <header>
+        <meta charset="uft-8">
+        <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SOMA</title>
+    </header>
+
+    <body>
+
+        <label for="idade">Digite sua idade </label>
+
+        <input type="text" id="idade">
+        
+        <button onclick="verificarIdade()">salvar</button>
+        <p id="result"></p>
+
+
+
+
+
+
+        <script>
+
+            function verificarIdade(){
+                let idade = document.getElementById('idade').value;
+                let resultado = document.getElementById('result');
+
+                if (idade < 18) {
+                    resultado.innerText = idade + " é menor de idade";    
+                } else if( idade >= 18 && idade <60 ) {
+                    resultado.innerText = idade + " é adulto";    
+                } else if (idade >= 60){
+                    resultado.innerText = idade + " é idoso";    
+                }
+            }
+
+        </script>
+
+
+
+
+
+
+
+
+
+
+    </body>
+    </html>
