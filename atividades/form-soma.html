@@ -69,10 +69,36 @@
             document.getElementById("resultado").innerHTML = "primeiro número não é divisível pelo segundo.";
         }
     }
+    
 </script>
 </body>
-</html
 
+    <head>
+    <title>Verificação de temperatura</title>
+    </head>
+
+<body>
+    <h1>Verificação de temperatura</h1>
+
+    <form>
+        <label for="temperatura">digite a temperatura:</label>
+        <input type="number" id="temp" name="temperatura" required>
+        <button type="submit">Verificar</button>
+    </form>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var temp= document.getElementById('temperatura').value;
+
+            if (temperatura < 10) {
+                alert("Está friozinho");
+            } else if (temperatura >= 10 && temperatura <= 25) {
+                alert("clima bom");
+            } else {
+                alert("Que calor ");
+            }
+        });
 
 
 
@@ -82,4 +108,5 @@
 
 
  </body>
-    </html>
+ </html
+    
