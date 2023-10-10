@@ -37,6 +37,41 @@
 
         </script>
 
+<head>
+<title>Verificar Divisi</title>
+</head>
+<body>
+<h1>Verificar Divisi</h1>
+
+<label for="num1">Digite um número:</label>
+<input type="number" id="numero1">
+
+<br><br>
+
+<label for="num2">Digite um segundo número:
+</label>
+<input type="number" id="num2">
+
+<br><br>
+
+<button onclick="verifiDivisi()">Verifi</button>
+
+<p id="resultado"></p>
+
+<script>
+    function verifiDivisi() {
+        var numero1 = parseInt(document.getElementById("num1").value);
+        var numero2 = parseInt(document.getElementById("num2").value);
+
+        if (numero1 % numero2 === 0) {
+            document.getElementById("resultado").innerHTML = " primeiro número é divisível pelo segundo.";
+        } else {
+            document.getElementById("resultado").innerHTML = "primeiro número não é divisível pelo segundo.";
+        }
+    }
+</script>
+</body>
+</html
 
 
 
@@ -46,5 +81,5 @@
 
 
 
-    </body>
+ </body>
     </html>
