@@ -119,8 +119,33 @@
             }
         }
     </script>
-</body>
+<title>Cálculo da Fatorial</title>
+</head>
+<body>
+    <h1>Cál.Fatorial</h1>
+    <label for="números">Digite um número:</label>
+    <input type="números" id="number">
+    <button onclick="calcularFactorial()">Calcular</button>
+    <p id="resultado"></p>
+    <script>
+        function cal.factorial() {
+            var number = parseInt(document.getElementById("number").value);
+            var fatorial= 1;
+            var steps = "";
+            
+            for (var i = number; i >= 1; i--) {
+                factorial *= i;
+                
+                if (i > 1) {
+                    steps += i + " x ";
+                } else {
+                    steps += i;
+                }
+            }
 
+          
+        }
+    </script>
 
 
 
