@@ -100,7 +100,26 @@
             }
         });
 
+        <title>Cont.regressiva</title>
+</head>
+<body>
+    <h2>Contagem regressiva</h2>
+    <input type="número" id="numInput">
+    <button onclick="iniciarCont.()">Iniciar</button>
+    <p id="contagem"></p>
 
+    <script>
+        function iniciarCont.() {
+            var num = document.getElementById("numInput").value;
+            var contagem = document.getElementById("contagem");
+            contagem.innerHTML = "";
+
+            for (var i = num; i >= 1; i--) {
+                contagem.innerHTML += i + " ";
+            }
+        }
+    </script>
+</body>
 
 
 
