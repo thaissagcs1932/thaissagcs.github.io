@@ -146,11 +146,70 @@
           
         }
     </script>
-
-
-
-
-
- </body>
- </html
+    <html>
+<head>
     
+    <title>Verificação de notas</title>
+</head>
+<body>
+    <h1>Verificação de notas</h1>
+
+        <matéria 1 -->
+        <label for="nota_materia1">Nota da matéria 1:</label>
+        <input type="número" id="nota_materia1" name="nota-materia1"><br><br>
+
+        <matéria 2 -->
+        <label for="nota_materia2">Nota da matéria 2:</label>
+        <input type="número" id="nota_materia2" name="nota_materia2"><br><br>
+
+        Matéria 3 -->
+        <label for="nota_materia3">Nota da Matéria 3:</label>
+        <input type="number" id="nota-materia3" name="nota-materia3"><br><br>
+
+        <etapa 1 -->
+        <label for="nota-etapa1">Nota Etapa 1:</label>
+        <input type="number" id="nota-etapa1" name="nota-etapa1"><br><br>
+
+        < etapa 2 -->
+        <label for="nota-etapa2">Nota Etapa 2:</label>
+        <input type="number" id="nota-etapa2" name="nota-etapa2"><br><br>
+
+        <etapa 3 -->
+        <label for="nota-etapa3">Nota Etapa 3:</label>
+        <input type="number" id="nota-etapa3" name="nota-etapa3"><br><br>
+
+        <Botão calcular média ->
+        <input type="button" value="Calcular média" onclick="calcularmedia()"><br><br>
+
+        <-resultado -->
+        <p id="resultado"></p>
+    </form>
+
+    <script>
+        function calculaemedia() {
+           
+    var notmateria1 = parseFloat(document.getElementById("nota-materia1").value);
+     var notmateria2 = parseFloat(document.getElementById("nota-materia2").value);
+     var notmateria3 = parseFloat(document.getElementById("nota-materia3").value);
+    var notetapa1 = parseFloat(document.getElementById("nota-etapa1").value);
+    var notetapa2 = parseFloat(document.getElementById("nota-etapa2").value);
+    var notetapa3 = parseFloat(document.getElementById("nota-etapa3").value);
+            
+    var medmateria1 = (notamateria1 + notaEtapa1 + notaEtapa2 + notaetapa3) / 4;
+    var medmateria2 = (notamateria2 + notaEtapa1 + notaetapa2 + notaetapa3) / 4;
+    var medamateria3 = (notamateria3 + notaEtapa1 + notaetapa2 + notaetapa3) / 4;
+            
+    var Materia1 = mediamateria1 >= 6 ? "Aprovado" : "Reprovado";
+    var Materia2 = mediamateria2 >= 6 ? "Aprovado" : "Reprovado";
+    var Materia3 = mediamateria3 >= 6 ? "Aprovado" : "Reprovado";
+    var resultado = "média matéria 1: " + mediaateria1.toFixed(2) + ", status: " + statusmateria1 + "<br>";
+    resultado += "média Matéria 2: " + mediaMateria2.toFixed(2) + ", status: " + statusMateria2 + "<br>";
+    resultado += "Média Matéria 3: " + mediamateria3.toFixed(2) + ", Status: " + statusmateria3;
+            
+    document.getElementById("resultado").innerHTML = resultado;
+        }
+ </script>
+</body>
+</html>
+
+
